@@ -1,5 +1,5 @@
-import { readdirSync } from "fs";
-import express, { Router } from "express";
+import { readdirSync } from 'fs';
+import express, { Router } from 'express';
 const router: Router = Router();
 
 const PATH_ROUTES = __dirname;

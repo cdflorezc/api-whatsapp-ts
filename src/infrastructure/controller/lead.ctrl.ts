@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { Request, Response } from 'express';
 import { LeadCreate } from "../../application/lead.create";
 
 class LeadCtrl {

@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { Twilio } from "twilio";
+import { Twilio } from 'twilio';
 import LeadExternal from "../../domain/lead-external.repository";
 
 const accountSid = process.env.TWILIO_SID || "";

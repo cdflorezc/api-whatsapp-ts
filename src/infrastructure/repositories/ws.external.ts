@@ -1,5 +1,5 @@
-import { Client, LocalAuth } from "whatsapp-web.js";
-import { image as imageQr } from "qr-image";
+import { Client, LocalAuth } from 'whatsapp-web.js';
+import { image as imageQr } from 'qr-image';
 import LeadExternal from "../../domain/lead-external.repository";
 
 /**

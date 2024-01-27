@@ -1,4 +1,4 @@
-import { ContainerBuilder } from "node-dependency-injection";
+import { ContainerBuilder } from 'node-dependency-injection';
 import { LeadCreate } from "../application/lead.create";
 import LeadCtrl from "./controller/lead.ctrl";
 import MetaRepository from "./repositories/meta.repository";

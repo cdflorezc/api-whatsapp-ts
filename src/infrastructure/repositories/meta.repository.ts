@@ -1,5 +1,5 @@
 import "dotenv/config";
-import axios from "axios";
+import axios from 'axios';
 import LeadExternal from "../../domain/lead-external.repository";
 
 const META_TOKEN = process.env.META_TOKEN || "";
