@@ -16,7 +16,7 @@ router.get("/qr", (req, res) => {
   fs.access(qrPath, fs.constants.F_OK, (err) => {
     if (err) {
       console.error("Error al acceder al archivo:", err);
-      res.status(404).send("Archivo QR no encontrado");
+      res.status(404).send("Archivo QR No encontrado");
       return;
     }
     
